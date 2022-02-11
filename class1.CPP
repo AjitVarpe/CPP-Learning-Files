@@ -29,6 +29,7 @@ int main(){
 		}	
 		cout<<sum<<endl;
 	}	
+	cout<<sizeof(sum);
 }
 
 
