@@ -1,7 +1,13 @@
-
 #include<bits/stdc++.h>
+#include<limits>
 using namespace std;
 
 int main(){
-  cout<<"Hello CPP";
-}
+  int n;
+  cin>>n;
+  cout<<n;
+
+
+  return 0;
+   
+  }

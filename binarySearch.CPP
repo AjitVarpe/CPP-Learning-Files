@@ -29,3 +29,4 @@ int main(){
 	cout<<binarSearch(arr,n,key);
 	
 }
+
