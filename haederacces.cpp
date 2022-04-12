@@ -10,9 +10,8 @@ int main(){
     cin>>a>>b;
     cout<<"Addition is : ";
     cout<<sum(a,b);
-
-    
-
-
+    cout<<endl;
+    cout<<"Substration is : ";
+    cout<<sub(a,b);
     return 0;
 }
