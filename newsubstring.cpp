@@ -6,12 +6,11 @@ using namespace std;
 std::string substring(const std::string atr,int a,int b)
 {
     {
-    int t=0;
-    string newstr;
         for(int i=a;i<=b;i++){
-        newstr[t]=atr[i];
-        t++;
-        }    
+            atr[i]
+
+        }
+
     return newstr;
 }
 }
