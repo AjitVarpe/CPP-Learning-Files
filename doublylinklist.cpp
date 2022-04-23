@@ -25,7 +25,7 @@ void display() {
 }
 int main() {
     int n,m;
-    cout<<"Enter how many Element we Want to insert "<<endl;
+    cout<<"Enter How Many Element We Want to Insert "<<endl;
     cin>>n;
     for(int i= 0; i<n;i++){
         cout<<"Enter Element Data"<<endl;
