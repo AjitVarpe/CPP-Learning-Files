@@ -8,7 +8,7 @@ int reverse(int num, int l){
     if(num==0)
         return 0;
         
-    //extract the last digit    
+    //extract the last digit  
     int digit = num%10;
     
     /*
