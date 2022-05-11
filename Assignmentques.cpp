@@ -2,9 +2,9 @@
 #include<climits>
 using namespace std;
 int main(){
-	int n;
-	cin>>n;
-	int arr[n];
+    int n=10;
+	int arr[10];
+    cout<<"Enter 10 Integer "<<endl;
 	for(int i=0;i<n;i++){
 		cin>>arr[i];
 	}
@@ -17,8 +17,9 @@ int main(){
 			}
 		}
 	}
+    cout<<"Sorted Array is "<<endl;
 	for(int i=0;i<n;i++){
-		cout<<arr[i]<<endl;
+		cout<<arr[i] <<", ";
 	}
 	return 0;
 }

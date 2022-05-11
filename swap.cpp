@@ -4,8 +4,8 @@
 using namespace std;
 
 int main(){
-    int a=10;
-    int b=20;
+    int a=14;
+    int b=7;
 
     cout<<"Numbers before swap are a = "<< a<<" b : "<<b<<endl;
     
@@ -28,6 +28,10 @@ int main(){
     // a=a^b;
     // b=a^b;
     // a=a^b;
+
+    // logic 5
+    b = a+b-(a=b);
+    
 
     
     cout<<"After changing Values are a : "<<a <<" b : "<<b;
