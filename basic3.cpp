@@ -13,7 +13,15 @@ int main(){
 
 
     cout<<"Your Enterd string is :"<<endl;
-    cout<<s;
+    
+
+    s.push_back('k');
+    cout<<"After using push back String is like :- "<<s;
+
+    cout<<endl;
+    s.pop_back();
+    cout<<"After using string pop back function :- "<<s;
+    // cout<<s;
 
 
 

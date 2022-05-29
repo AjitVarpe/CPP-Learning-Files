@@ -1,24 +1,25 @@
-#include <bits/stdc++.h>
-#include<climits>
+#include<bits/stdc++.h>
+#include<limits>
+#include<String>
 using namespace std;
+class Node{
+	public:
+	int data;
+	Node* next;
+};
 int main(){
-	int n;
-	cin>>n;
-	int arr[n];
-	for(int i=0;i<n;i++){
-		cin>>arr[i];
-	}
-	for(int i=0;i<n-1;i++){
-		for(int j=i+1;j<n;j++){
-			if(arr[j]<arr[i]){
-				int temp=arr[i];
-				arr[i]=arr[j];
-				arr[j]=temp;
-			}
-		}
-	}
-	for(int i=0;i<n;i++){
-		cout<<arr[i]<<", ";
-	}
+	Node* head = new Node();
+	Node* second = new Node();
+	Node* third = new Node();
+
+	head->data = 5;
+	head->next = second;
+	second->data=6;
+	second->next=third;
+	third->data=7;
+	third->next=NULL;
+	cout<<second->next;
+
+
 	return 0;
 }
