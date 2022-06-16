@@ -39,6 +39,9 @@ void insert_at_end(Node *head,int data){
     temp  = new Node();
     temp->data=data;
     temp->next=NULL;
+    if(ptr->next==NULL){
+        ptr->next=temp;
+    }
     while(ptr->next != NULL){
         ptr = ptr->next;
     }
