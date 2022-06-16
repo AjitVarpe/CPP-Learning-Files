@@ -44,6 +44,8 @@ int main(){
     third->next = NULL;
 
     insert_at_end(head,55);
+    insert_at_end(head,65);
+    insert_at_end(head,75);
     printlist(head);
     return 0;
 }
