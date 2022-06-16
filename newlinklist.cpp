@@ -43,9 +43,7 @@ void insert_at_end(Node *head,int data){
         ptr = ptr->next;
     }
     ptr->next= temp;
-
-
-}
+    }
 
 
 
