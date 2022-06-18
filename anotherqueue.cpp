@@ -39,7 +39,7 @@ void dequeue()
         }
         else
         {
-            // cout << "Poped element is " << queue[front] << endl;
+            cout << "Poped element is " << queue[front] << endl;
             front++;
         }
     }
