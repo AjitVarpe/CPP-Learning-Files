@@ -13,7 +13,13 @@ void printlist(Node* n){
         n = n->next;
     }
 }
-void insert_at_end(Node *head,int data){
+void printlist(Node* n){
+    while(n->next->next != NULL){
+        n = n->next;
+    }
+    cout<<"Second last Element is "<<
+}
+void insert_element(Node *head,int data){
     Node *temp,*ptr;
     ptr = head;
     temp = new Node();
@@ -29,23 +35,15 @@ void insert_at_end(Node *head,int data){
 }
 int main(){
     Node *head = NULL;
-    Node *second = NULL;
-    Node *third = NULL;
-
     head = new Node();
-    second = new Node();
-    third = new Node();
+    cout<<"Enter value to insert :"<<endl;
+    cin>>number;
 
-    head->data=25;
-    head->next = second;
-    second->data=35;
-    second->next = third;
-    third->data=45;
-    third->next = NULL;
-
-    insert_at_end(head,55);
-    insert_at_end(head,65);
-    insert_at_end(head,75);
+    head->data=number;
+    head->next = NULL;
+    insert_element(head,65);
+    insert_element(head,55);
+    insert_element(head,75);
     printlist(head);
     return 0;
 }
