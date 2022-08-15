@@ -1,13 +1,12 @@
-#include<bits/stdc++.h>
-#include<limits>
+#include <bits/stdc++.h>
 using namespace std;
+int main()
+{
 
-int main(){
-  int n;
-  cin>>n;
-  cout<<n;
+  vector<int> vect{10, 20, 30};
 
-
+  for (int x : vect)
+    cout << x << " ";
+  cout << "Hello World";
   return 0;
-   
-  }
+}
