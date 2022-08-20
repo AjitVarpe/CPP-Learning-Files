@@ -1,12 +1,24 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
+#include<limits>
+#include<String>
 using namespace std;
-int main()
-{
+int binay(int arr[],int size,int ele){
+  int l=0,h=size;
+  while (l<=h)
+  {
+    int mid=(l+h)/2;
+    if(arr[mid]==ele){
+      return mid;
+    }
+    else if(arr[mid]<ele)
+          
 
-  vector<int> vect{10, 20, 30};
+  }
+  
+}
+int main(){
+  
 
-  for (int x : vect)
-    cout << x << " ";
-  cout << "Hello World";
+
   return 0;
 }
