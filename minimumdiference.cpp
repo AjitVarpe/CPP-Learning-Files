@@ -22,7 +22,5 @@ int main(){
     int target;
     cin>>target;
     cout<<findelement(ar1,target);
-
-
     return 0;
 }
